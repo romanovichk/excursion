@@ -1,18 +1,30 @@
-h1 {
+body {
+  background-color: black;
+  font-family: Verdana;
   text-align: center;
-  font-weight: bolder;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: normal;
   font-size: 50px;
   color: white;
 }
 
-h4 {
-  text-align: center;
+h2 {
   font-weight: normal;
-  font-size: 16px;
-  color: aquamarine;
+  color: gray;
+  font-size: 21px;
 }
 
-body {
-  background-color: black;
-  font-family: Verdana;
+h4 {
+  font-weight: normal;
+}
+
+.align-right {
+  text-align: right;
 }
